@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height:1.3 ;
+    font-weight: 300;
+    font-family:'Ubuntu', sans-serif; 
+}
+
+.main{
+    background-image: url(developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-container{
+    color: white;
+    max-width:900px ;
+    margin:0 auto;
+    padding-top:40px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.big-text{
+    font-size: 80px;
+    font-family:'Ubuntu', sans-serif; 
+}
+
+.black-box{
+    background-color: black;
+    padding: 20px;
+    min-width: 100vh;
+    text-align: center;
+}
+.black-box, h2{
+    margin: 0 auto;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.you{
+    font-size: 50px;
+}
+
+.work{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   max-width: 1100px;
+   margin: 50px auto;
+
+}
+
+.card{
+    max-width: 320px;
+    height: 400px;
+    background-color: rgb(186, 155, 248);
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px rgba(1, 1,1,0.3);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.image-content p{
+    padding: 15px 10px;
+}
+
+.image-content h3{
+    padding: 10px;
+}
+
+.bottom-section{
+    display: flex;
+}
+.contact{
+background-color: #515603;
+}
+.about{
+    background-color: #722300;
+    }
+
+.contact,.about{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+
+.contact h2,.about h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.about p,.contact p{
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
